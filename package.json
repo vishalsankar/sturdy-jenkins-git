@@ -1,0 +1,27 @@
+{
+  "name": "sturdy-jenkins-git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalsankar/sturdy-jenkins-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalsankar/sturdy-jenkins-git/issues"
+  },
+  "homepage": "https://github.com/vishalsankar/sturdy-jenkins-git#readme",
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.62.0",
+    "@opentelemetry/exporter-jaeger": "^2.0.1",
+    "@opentelemetry/sdk-node": "^0.203.0",
+    "express": "^5.1.0",
+    "prom-client": "^15.1.3"
+  }
+}
